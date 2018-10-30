@@ -1,0 +1,9 @@
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\bin\TheoryHomework2.dll.config
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\bin\TheoryHomework2.dll
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\bin\TheoryHomework2.pdb
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\obj\Debug\TheoryHomework2.csprojResolveAssemblyReference.cache
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\obj\Debug\TheoryHomework2.csproj.CoreCompileInputs.cache
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\obj\Debug\TheoryHomework2.dll
+C:\Users\Chance\Desktop\School\TheoryHomework2\TheoryHomework2\obj\Debug\TheoryHomework2.pdb
