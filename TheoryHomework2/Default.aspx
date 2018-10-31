@@ -1,5 +1,3 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TheoryHomework2.Default" %>
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -32,28 +30,64 @@
                 <tr><td colspan="3"><button class="btn btn-primary process">Process</button><button class="btn btn-primary reset">Reset</button></td></tr>
                 <tr class="graphRow">
                     <td><asp:Panel class="graphPanel pda" graph="pda" ID="pdaPanel" runat="server">
-                        <svg height="100" width="120">
-                          <circle class="Q0" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#fff" /> 
-                          <text x="43" y="55" class="small">Q0</text>
+						<svg height="300" width="50">
+                          <line x1="0" y1="150" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="145" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="155" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
                         </svg>
-                        <svg height="100" width="120">
-                          <circle class="Q1" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#fff" />
-                          <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="#fff" /> 
-                          <text x="43" y="55" class="small">Q1</text>
+                        <svg height="300" width="100">
+                          <circle class="Q0" cx="50" cy="150" r="40" stroke="black" stroke-width="3" fill="#fff" /> 
+						  <circle cx="50" cy="95" r="15" stroke="black" stroke-width="2" fill="#fff" /> 
+						  <circle cx="50" cy="205" r="15" stroke="black" stroke-width="2" fill="#fff" /> 
+                          <text x="43" y="155" class="small">Q0</text>
+						  <text x="38" y="70" class="small">0/E/0</text>
+						  <text x="38" y="240" class="small">1/E/1</text>
+                        </svg>
+						<svg height="300" width="50">
+                          <line x1="0" y1="150" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="145" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="155" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <text x="10" y="130" class="small">0/E/E</text>
+						  <text x="10" y="145" class="small">1/E/E</text>
+						  <text x="10" y="165" class="small">E/E/E</text>
+                        </svg>
+                        <svg height="300" width="100">
+                          <circle class="Q1" cx="50" cy="150" r="40" stroke="black" stroke-width="3" fill="#fff" />
+                          <circle cx="50" cy="150" r="20" stroke="black" stroke-width="3" fill="#fff" /> 
+						  <circle cx="50" cy="95" r="15" stroke="black" stroke-width="2" fill="#fff" /> 
+						  <circle cx="50" cy="205" r="15" stroke="black" stroke-width="2" fill="#fff" /> 
+                          <text x="43" y="155" class="small">Q1</text>
+						  <text x="38" y="70" class="small">0/0/E</text>
+						  <text x="38" y="240" class="small">1/1/E</text>
                         </svg>
                         <div class="path"></div>
                         <div class="stackEmpty"></div>
                         </asp:Panel>
                     </td>
                     <td><asp:Panel class="graphPanel pda2" graph="pda2" ID="pda2Panel" runat="server">
-                        <svg height="100" width="120">
-                          <circle class="Q0" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#fff" /> 
-                          <text x="43" y="55" class="small">Q0</text>
+						<svg height="300" width="50">
+                          <line x1="0" y1="150" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="145" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="155" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
                         </svg>
-                        <svg height="100" width="120">
-                          <circle class="Q1" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#fff" /> 
-                          <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="#fff" /> 
-                          <text x="43" y="55" class="small">Q1</text>
+                        <svg height="300" width="100">
+                          <circle class="Q0" cx="50" cy="150" r="40" stroke="black" stroke-width="3" fill="#fff" /> 
+						  <circle cx="50" cy="95" r="15" stroke="black" stroke-width="2" fill="#fff" /> 
+                          <text x="43" y="155" class="small">Q0</text>
+						  <text x="38" y="70" class="small">0/E/X</text>
+                        </svg>
+						<svg height="300" width="50">
+                          <line x1="0" y1="150" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="145" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <line x1="45" y1="155" x2="50" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+						  <text x="10" y="165" class="small">E/E/E</text>
+                        </svg>
+                        <svg height="300" width="100">
+                          <circle class="Q1" cx="50" cy="150" r="40" stroke="black" stroke-width="3" fill="#fff" /> 
+                          <circle cx="50" cy="150" r="20" stroke="black" stroke-width="3" fill="#fff" /> 
+						  <circle cx="50" cy="95" r="15" stroke="black" stroke-width="2" fill="#fff" /> 
+                          <text x="43" y="155" class="small">Q1</text>
+						  <text x="38" y="70" class="small">1/X/E</text>
                         </svg>
                         <div class="path"></div>
                         <div class="stackEmpty"></div>
@@ -94,7 +128,6 @@
             text-align: center;
             background: #fff;
         }
-
         .graphPanel {
             height: 240px;
             overflow-y:auto;
